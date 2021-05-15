@@ -1,0 +1,28 @@
+{
+    "name": "firstweb-nodejs",
+    "version": "1.0.0",
+    "description": "My fisrt website with NodeJs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index",
+        "dev": "nodemon src/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Godofredo027/first-project-nodejs.git"
+    },
+    "author": "Godofred027",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Godofredo027/first-project-nodejs/issues"
+    },
+    "homepage": "https://github.com/Godofredo027/first-project-nodejs#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
